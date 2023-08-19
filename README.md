@@ -2,7 +2,7 @@
 
 ## Description
 - In this project the [Connect 4](archive.ics.uci.edu/ml/datasets/Connect-4) dataset is used.
-- The scikit-learn [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) for classification task
+- The scikit-learn [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) for classification task (win, draw, loss)
 - 3 Different criterions are used in this project **(Entropy, Gini Index and Log loss)**
 - The Decision Tree needs to be pruned, so different prunning hyperparameters are tunned to achieve best result (incuding **pre-prunning** and **post-prunning**):
   - **Pre-prunning hyperparameters:**
